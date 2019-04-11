@@ -14,6 +14,14 @@
 		93D4AEB4220BAFEF00B420D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D4AEB3220BAFEF00B420D4 /* Assets.xcassets */; };
 		93D4AEB7220BAFEF00B420D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D4AEB5220BAFEF00B420D4 /* LaunchScreen.storyboard */; };
 		93D4AEC2220BAFEF00B420D4 /* MyFavoriteMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4AEC1220BAFEF00B420D4 /* MyFavoriteMoviesTests.swift */; };
+		93F579B52233F17200872063 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579B42233F17200872063 /* Constants.swift */; };
+		93F579B72233F76B00872063 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579B62233F76B00872063 /* Movie.swift */; };
+		93F579BA2234298B00872063 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579B92234298B00872063 /* BorderedButton.swift */; };
+		93F579BC223432BE00872063 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579BB223432BE00872063 /* Config.swift */; };
+		93F579BF22345AFD00872063 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579BE22345AFD00872063 /* LoginViewController.swift */; };
+		93F579C122345EDA00872063 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579C022345EDA00872063 /* FavoritesTableViewController.swift */; };
+		93F579C322345F2E00872063 /* GenreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579C222345F2E00872063 /* GenreTableViewController.swift */; };
+		93F579C522345F4200872063 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F579C422345F4200872063 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 		93D4AEBD220BAFEF00B420D4 /* MyFavoriteMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavoriteMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D4AEC1220BAFEF00B420D4 /* MyFavoriteMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteMoviesTests.swift; sourceTree = "<group>"; };
 		93D4AEC3220BAFEF00B420D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F579B42233F17200872063 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93F579B62233F76B00872063 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		93F579B92234298B00872063 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		93F579BB223432BE00872063 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		93F579BE22345AFD00872063 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93F579C022345EDA00872063 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		93F579C222345F2E00872063 /* GenreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreTableViewController.swift; sourceTree = "<group>"; };
+		93F579C422345F4200872063 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +95,11 @@
 		93D4AEA8220BAFED00B420D4 /* MyFavoriteMovies */ = {
 			isa = PBXGroup;
 			children = (
+				93F579BD22345AE500872063 /* View Controllers */,
+				93F579B82234294B00872063 /* Provided Classes */,
 				93D4AEA9220BAFED00B420D4 /* AppDelegate.swift */,
+				93F579B62233F76B00872063 /* Movie.swift */,
+				93F579B42233F17200872063 /* Constants.swift */,
 				93D4AEAB220BAFED00B420D4 /* ViewController.swift */,
 				93D4AEAD220BAFED00B420D4 /* Main.storyboard */,
 				93D4AEB3220BAFEF00B420D4 /* Assets.xcassets */,
@@ -97,6 +117,26 @@
 				93D4AEC3220BAFEF00B420D4 /* Info.plist */,
 			);
 			path = MyFavoriteMoviesTests;
+			sourceTree = "<group>";
+		};
+		93F579B82234294B00872063 /* Provided Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93F579B92234298B00872063 /* BorderedButton.swift */,
+				93F579BB223432BE00872063 /* Config.swift */,
+			);
+			path = "Provided Classes";
+			sourceTree = "<group>";
+		};
+		93F579BD22345AE500872063 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93F579BE22345AFD00872063 /* LoginViewController.swift */,
+				93F579C022345EDA00872063 /* FavoritesTableViewController.swift */,
+				93F579C222345F2E00872063 /* GenreTableViewController.swift */,
+				93F579C422345F4200872063 /* MovieDetailViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +242,15 @@
 			files = (
 				93D4AEB2220BAFED00B420D4 /* MyFavoriteMovies.xcdatamodeld in Sources */,
 				93D4AEAC220BAFED00B420D4 /* ViewController.swift in Sources */,
+				93F579BA2234298B00872063 /* BorderedButton.swift in Sources */,
+				93F579C122345EDA00872063 /* FavoritesTableViewController.swift in Sources */,
+				93F579BC223432BE00872063 /* Config.swift in Sources */,
+				93F579BF22345AFD00872063 /* LoginViewController.swift in Sources */,
 				93D4AEAA220BAFED00B420D4 /* AppDelegate.swift in Sources */,
+				93F579B52233F17200872063 /* Constants.swift in Sources */,
+				93F579B72233F76B00872063 /* Movie.swift in Sources */,
+				93F579C522345F4200872063 /* MovieDetailViewController.swift in Sources */,
+				93F579C322345F2E00872063 /* GenreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
